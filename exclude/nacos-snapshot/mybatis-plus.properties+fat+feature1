@@ -1,0 +1,19 @@
+mybatis-plus.check-config-location = true
+mybatis-plus.configuration.aggressive-lazy-loading = true
+mybatis-plus.configuration.auto-mapping-behavior = partial
+mybatis-plus.configuration.cache-enabled = false
+mybatis-plus.configuration.lazy-loading-enabled = true
+mybatis-plus.configuration.local-cache-scope = statement
+
+mybatis-plus.configuration.map-underscore-to-camel-case = true
+mybatis-plus.configuration.auto-mapping-unknown-column-behavior = warning
+mybatis-plus.global-config.banner = false
+mybatis-plus.global-config.db-config.id-type = auto
+mybatis-plus.global-config.db-config.table-underline = true
+mybatis-plus.global-config.enable-sql-runner = false
+#mybatis-plus.global-config.super-mapper-class = cn.xdf.scrm.common.mybatis.base.MyBaseMapper
+mybatis-plus.mapper-locations = classpath*:/mybatis/**/*.xml
+mybatis-plus.type-handlers-package = cn.xdf.scrm.common.typehander
+mybatis-plus.type-enums-package=cn.xdf.scrm
+
+spring.datasource.dynamic.hikari.is-register-mbeans=true
