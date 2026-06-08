@@ -10,7 +10,7 @@ const UI_TEXTS = {
         navBrand: '<i class="bi bi-robot"></i> OmniDoc-RAG',
         tabSearch: '<i class="bi bi-search"></i> 知识检索 (RAG)',
         tabWrite: '<i class="bi bi-pencil-square"></i> AI Writer',
-        placeholderSearch: "输入需要检索的知识，例如：暖通设备维护标准是什么？",
+        placeholderSearch: "输入需要检索的知识……",
         placeholderWrite: "输入想起草的文档主题（支持标书、合同、报告等）...",
         outlineTitle: "<i class=\"bi bi-list-nested\"></i> 根据知识库自动生成的起草大纲"
     },
